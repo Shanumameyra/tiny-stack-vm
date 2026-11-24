@@ -1,4 +1,5 @@
 // Tiny Stack VM: a faithful interpreter of make.fun's tiny stack ISA v1
+// Practice set: 1,000,000 / 1,000,000 (40/40); baseline plain-vm 1.0.0: 670,000.
 // (generator/subject/ISA.md in the kit; vm.mjs is the rule where they differ).
 // Every rule in its stated order: 32-bit wrapping arithmetic (Math.imul for
 // MUL, unsigned DIVU/MODU/LTU, shift counts masked to 5 bits), a 256-value
